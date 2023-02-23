@@ -1,0 +1,92 @@
+/* .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.shop {
+    flex-basis: 20%;
+    border: 1px dotted black;
+    padding-right: 7em;
+    margin-left: .2%;
+    margin-right: .2%;
+    text-align: left;
+} */
+
+
+/* .pageHeader {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 2%;
+    font-size:350%;
+    text-decoration: underline;
+}
+
+/* .fish-list {
+text-align: left;
+} */
+
+/*.fish-image{
+text-align: center;
+image-orientation: flip;    
+} */
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+article {
+    width: 200px;
+    height: 250px;
+}
+
+img {
+    width: 260px;
+    height: 200px;
+}
+
+.titles {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-size: 32px;
+    text-decoration: underline;
+    margin-bottom: 48px;
+    background-color: aliceblue;
+    filter: opacity(85%);
+}
+
+.pageHeader {
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    font: bold 350% Arial;
+    font-style: oblique;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    background-color: aliceblue;
+    filter: drop-shadow(15px 10px 4px black);
+    filter: opacity(85%);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-around;
+    padding-top: 20px;
+    font-size: larger;
+    font-style: italic;
+    background-color: aliceblue;
+    filter: opacity(85%);
+}
+
+.fish-pic {
+    border-radius: 15px;
+    filter: drop-shadow(10px 6px 4px rgba(4,2,96,1));
+}
+
+.spacing {
+    height: 20px;
+    width: 20px;
+}
