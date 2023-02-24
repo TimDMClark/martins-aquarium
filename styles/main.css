@@ -73,7 +73,8 @@ img {
 .row {
     display: flex;
     flex-direction: row;  
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     padding-top: 20px;
     font-size: larger;
     font-style: italic;
@@ -81,7 +82,7 @@ img {
     filter: opacity(85%);
 }
 
-.fish-pic {
+.fish__imag {
     border-radius: 15px;
     filter: drop-shadow(10px 6px 4px rgba(4,2,96,1));
 }
@@ -89,4 +90,20 @@ img {
 .spacing {
     height: 20px;
     width: 20px;
+}
+
+.fishList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 200px;
+}
+
+.fishcard {
+    padding: 20%;
+}
+
+.fish__image {
+    filter: drop-shadow(10px 6px 4px rgba(4,2,96,1));
+    padding-bottom: 15px;
 }
